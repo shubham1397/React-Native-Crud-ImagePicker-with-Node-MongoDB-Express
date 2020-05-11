@@ -2,10 +2,6 @@
 import React, {useState, useEffect} from 'react';
 import { StyleSheet, Text, View, TextInput, ToastAndroid } from 'react-native';
 import Btn from '../components/Button';
-import { NavigationContainer } from '@react-navigation/native';
-import { createStackNavigator } from '@react-navigation/stack';
-
-
 export default function LinksScreen({navigation}, props) {
 
 const [name, setName] = useState("");
@@ -28,7 +24,6 @@ const setNameText = Text =>{
 const setDesiText = Text =>{
   setDesignation(Text);
 }
-
 const addData = (name,desi) =>{
 
 
@@ -55,7 +50,6 @@ const addData = (name,desi) =>{
 
   
  }
-
 
   return (
     <View style={styles.container}> 
