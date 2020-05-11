@@ -1,0 +1,8 @@
+{
+  "urlRandomness": "7z-hba",
+  "hostType": "lan",
+  "lanType": "ip",
+  "dev": true,
+  "minify": false,
+  "https": true
+}
