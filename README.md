@@ -1,2 +1,15 @@
-# React-Native-Crud-ImagePicker-with-Node-MongoDB-Express
-React native mobile app to perform CRUD operations with imagePicker and CameraPicker 
+Installation
+
+Frontend =>
+
+2) "cd frontend" => "npm install"
+3) "expo start"
+
+Backend =>
+
+4) "cd backend" => "npm install"
+5) "nodemon start"
+
+Database =>
+
+6) cd {mongod installation}/bin  => "mongod --dbpath={database path}"
